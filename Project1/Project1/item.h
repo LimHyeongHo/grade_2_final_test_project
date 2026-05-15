@@ -1,7 +1,7 @@
 #pragma once
 class item
 {
-	public:
+protected:
 		int itemMoney(int num);
 };
 
