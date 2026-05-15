@@ -2,6 +2,6 @@
 class item
 {
 	public:
-		int itemMoney(int num);
+		int itemMoney(char num);
 };
 
