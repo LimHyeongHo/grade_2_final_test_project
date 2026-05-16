@@ -3,6 +3,7 @@
 
 int exchange::exchangeMoney(int itemMoney, int M)
 {
-	int price = itemMoney * M;
+	int price = M - itemMoney;
+	
 	return price;
 }
