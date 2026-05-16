@@ -1,6 +1,6 @@
 #pragma once
 static class item
 {
-private:
+public:
 	int itemMoney(int num);
 };
