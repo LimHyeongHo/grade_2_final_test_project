@@ -12,9 +12,9 @@ void main()
 	printf("피자 = 1, 치킨 = 2, 햄버거 = 3 중에만 골라라 시발");
 
 	scanf("%d", &itemNum);
-	int money = itemObj.itemMoney(itemNum);
+	//int money = itemObj.itemMoney(itemNum);
 
-	printf("돈내놔. 10,000원 언더만 ㄱㄴ");
+	//printf("돈내놔. 10,000원 언더만 ㄱㄴ");
 	scanf("%d", &M);
 
 	printf("물건의 가격 %d원, 너가 낸 돈 %d원, 거스름돈 %d원", money, M, exchangePrice.exchangeMoney(money, M));
